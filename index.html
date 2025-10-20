@@ -3,12 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
+  <title>E-learning Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link href='/style.css' rel='stylesheet'>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
+  <header>
+    <div class="container">
+        <h1>E-learning Platform</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to the Future of Learning</h2>
+            <p>Master new skills from the comfort of your home.</p>
+            <a href="#" class="btn btn-primary">Browse Courses</a>
+        </div>
+    </section>
+
+    <section class="courses">
+      <div class="container">
+          <h2>Our Courses</h2>
+          <div class="course-grid">
+              <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?q=80&w=2070&auto=format&fit=crop" alt="Course Image">
+                <div class="course-content">
+                    <h3>Introduction to JavaScript</h3>
+                    <p>Learn the fundamentals of JavaScript for web development.</p>
+                    <a href="#" class="btn">Enroll Now</a>
+                </div>
+              </div>
+              <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1507721999472-8ed4421b432d?q=80&w=2070&auto=format&fit=crop" alt="Course Image">
+                <div class="course-content">
+                    <h3>Advanced CSS</h3>
+                    <p>Flexbox, Grid, animations, and more for stunning layouts.</p>
+                    <a href="#" class="btn">Enroll Now</a>
+                </div>
+              </div>
+              <div class="course-card">
+                <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?q=80&w=2070&auto=format&fit=crop" alt="Course Image">
+                 <div class="course-content">
+                    <h3>HTML5 Mastery</h3>
+                    <p>Master the latest features of HTML5, including semantic elements.</p>
+                    <a href="#" class="btn">Enroll Now</a>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+        <p>&copy; 2023 E-learning Platform. All rights reserved.</p>
+    </div>
+  </footer>
+
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
